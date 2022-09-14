@@ -1,0 +1,15 @@
+Write a program to implement a Library Management 
+System with the following features:
+
+It should contains Books where each Book has a name , an author  and price. 
+
+All the books must be unique i.e. it should not accept a Book if it is already present
+
+Retrieval of Book should be as fast as possible
+
+The program should have 3 classes:
+Book : should contain 3 data members called name , author and price . Also provide appropriate constructor and other important methods 
+
+Library:  should contain a HashSet of Book . Also provide 3 methods called addBook( ), getBookCount() and getAllBooks( )
+
+UseLibrary: This will be our driver class . It will contain code to create 4 Book objects , add them to the Library and display their details.
